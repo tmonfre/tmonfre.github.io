@@ -26,3 +26,7 @@ print_line
 git add .
 git commit -m "deploy: version $version"
 git push
+
+print_line
+echo "Successfully deployed"
+print_line
